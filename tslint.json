@@ -1,0 +1,10 @@
+{
+  "extends": ["tslint:recommended",
+      "tslint-config-prettier"
+  ],
+  "rules": {
+      "no-trailing-whitespace": [true, "ignore-comments", "ignore-blank-lines"],
+      "quotemark": [true, "single"],
+      "object-literal-sort-keys": false
+  }
+}

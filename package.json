@@ -1,0 +1,28 @@
+{
+  "name": "wp-viz-taxonomyexplorer",
+  "version": "0.0.1",
+  "description": "An interactive taxonomy explorer plugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "plugin",
+    "taxonomy"
+  ],
+  "author": "Matt Worrall",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattWorrall/WP-VIZ-TaxonomyExplorer.git"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.16.0",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "d3-tip": "^0.9.1"
+  }
+}
